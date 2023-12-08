@@ -19,6 +19,11 @@ body {
 header {
     background-color: lightcoral;
 }
+
+h1 {
+    font-family: Lato, sans-serif;
+    font-weight: 700;
+}
 /*main style*/
 main {
     background-color: lightblue;
