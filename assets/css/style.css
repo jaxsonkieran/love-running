@@ -15,6 +15,7 @@ body {
     color: #3a3a3a;
     font-family: Lato, sans-serif;
     font-weight: 300;
+
 }
 /*header style*/
 header {
@@ -24,11 +25,14 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 5px #3a3a3a;
+
+
 }
 
 header a {
     text-decoration: none;
     color: inherit;
+
 }
 
 h1 {
@@ -43,6 +47,8 @@ h1 {
     font-size: 110%;
     letter-spacing: 3px;
     list-style-type: none;
+
+
 }
 
 #menu > li {
@@ -51,6 +57,18 @@ h1 {
 
 .active {
     border-bottom: 1px solid #3a3a3a;
+}
+
+/* navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0px;
+    box-shadow: 0 2px 5px #3a3a3a;
+    padding: 0 1rem;
+    display: none;
+
 }
 /*main style*/
 main {
