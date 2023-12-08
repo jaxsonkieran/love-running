@@ -128,3 +128,10 @@ footer {
         margin-top: 92px;
     }
 }
+/* large devices (laptops and desktops, 992px and up */
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        cursor: pointer;
+        border-bottom: 1px solid #3a3a3a;
+    }
+}
