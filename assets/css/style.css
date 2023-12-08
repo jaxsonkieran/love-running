@@ -1,0 +1,18 @@
+/*wildcard selector remove default styling*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*header style*/
+header {
+    background-color: lightcoral;
+}
+/*main style*/
+main {
+    background-color: lightblue;
+}
+/*footer style*/
+footer {
+    background-color: orange;
+}
