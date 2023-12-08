@@ -48,8 +48,6 @@ h1 {
     font-size: 110%;
     letter-spacing: 3px;
     list-style-type: none;
-
-
 }
 
 #menu > li {
@@ -75,7 +73,6 @@ nav {
 /*Nav toggle */
 #nav-toggle:checked~nav {
     display: block;
-
 }
 
 #nav-toggle {
@@ -96,4 +93,28 @@ main {
 /*footer style*/
 footer {
     background-color: orange;
+}
+
+/*Media Query*/
+
+@media screen and (min-width: 768px) {
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
 }
