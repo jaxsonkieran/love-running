@@ -199,10 +199,54 @@ main {
 
 /* sign up page */
 #signup {
-    background-image: url("assets/images/signup-image.webp");
+    background-image: url("../images/signup-image.webp");
     background-size: cover;
     background-position: 75%;
     flex-grow: 1;
+    padding: 20px 10% 0 10%;
+}
+
+#signup-form>h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+#signup-form {
+    color:#fafafa;
+    background-color: rgba(60, 60, 60, .6);
+    padding: 30px;
+}
+
+.text-input {
+    background: transparent;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    padding: 0 5px;
+}
+
+#signup-form input, label {
+    display: block;
+    margin-top: 5px;
+    /* width: 100%; */
+}
+
+
+#radio-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.join-button {
+    margin-top: 20px;
+    padding: 15px 32px;
+    border-radius: 2px;
+    color:#fafafa;
+    background-color: #454b1b;
+    font-size: 100%;
 }
 
 /*footer style*/
@@ -286,6 +330,23 @@ main {
 
     #photos {
         column-count: 3;
+    }
+    #signup {
+        position: relative;
+        background-size: center;
+    }
+    #signup-form {
+        position: absolute;
+        left: 10%;
+        top: 150px;
+        max-width: 400px;
+    }
+    .join-button:hover {
+        color:#454b1b;
+        background-color: #fafafa;
+    }
+    .text-input:hover {
+        border-color: #f16c6b;
     }
 }
 
