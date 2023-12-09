@@ -116,26 +116,27 @@ main {
 }
 
 #reasons {
+    width: 90%;
     margin: 20px auto;
 }
 
-#reasons > h2 {
+#reasons h2 {
     margin-bottom: 20px;
     text-align: center;
     font-size: 280%;
 }
 
-#benefits > p {
+#benefits p {
     padding: 0 20px;
 }
 
 
-#benefits-physical, #benefits-mental {
+#benefits-physical > div, #benefits-mental > div {
     line-height: 20px;
     margin-bottom: 20px;
 }
 
-#benefits-physical, #benefits-mental > hr {
+#benefits hr {
     border: 1px solid #3a3a3a;
 }
  
