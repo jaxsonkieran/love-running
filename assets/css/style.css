@@ -125,8 +125,18 @@ main {
     font-size: 280%;
 }
 
-#benefits {
-    margin-top: 20px;
+#benefits > p {
+    padding: 0 20px;
+}
+
+
+#benefits-physical, #benefits-mental {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits-physical, #benefits-mental > hr {
+    border: 1px solid #3a3a3a;
 }
  
 /*footer style*/
