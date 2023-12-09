@@ -115,6 +115,19 @@ main {
     color: #ffffff
 }
 
+#reasons {
+    margin: 20px auto;
+}
+
+#reasons > h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
+}
+
+#benefits {
+    margin-top: 20px;
+}
  
 /*footer style*/
 
