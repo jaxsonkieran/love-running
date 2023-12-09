@@ -7,6 +7,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /* General styles */
 body {
     min-height: 100vh;
@@ -18,7 +19,9 @@ body {
 
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: Lato, sans-serif;
     font-weight: 700;
     text-transform: uppercase;
@@ -55,7 +58,7 @@ header a {
     list-style-type: none;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
 }
 
@@ -92,7 +95,9 @@ nav {
 main {
     /* make main content take up most of the page*/
     flex: 1 0 auto;
-    margin-top: 40px;
+    margin-top: 47px;
+    display: flex;
+    flex-direction: column;
 }
 
 /* hero section */
@@ -115,7 +120,8 @@ main {
     padding-left: 10px;
 }
 
-#cover-text > h2, #cover-text > h3 {
+#cover-text>h2,
+#cover-text>h3 {
     color: #ffffff
 }
 
@@ -135,7 +141,8 @@ main {
 }
 
 
-#benefits-physical > div, #benefits-mental > div {
+#benefits-physical>div,
+#benefits-mental>div {
     line-height: 20px;
     margin-bottom: 20px;
 }
@@ -168,7 +175,7 @@ main {
 
 #times div {
     color: #fafafa;
-    background-color: rgba(0,0,0,.6);
+    background-color: rgba(0, 0, 0, .6);
     padding: 15px;
     text-align: center;
     flex-basis: 200px;
@@ -189,7 +196,15 @@ main {
 #photos {
     line-height: 0;
 }
- 
+
+/* sign up page */
+#signup {
+    background-image: url("assets/images/signup-image.webp");
+    background-size: cover;
+    background-position: 75%;
+    flex-grow: 1;
+}
+
 /*footer style*/
 
 #social-networks {
@@ -228,7 +243,7 @@ main {
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding: 1rem;
     }
 
@@ -250,17 +265,21 @@ main {
         width: 300px;
         right: 50px;
     }
+
     /* Reasons section */
-    #benefits-physical, #benefits-mental {
+    #benefits-physical,
+    #benefits-mental {
         display: flex;
         flex-direction: column;
         width: 100%;
     }
 
-    #benefits-physical > div, #benefits-mental > div {
+    #benefits-physical>div,
+    #benefits-mental>div {
         width: 75%;
     }
-    #benefits-mental > div {
+
+    #benefits-mental>div {
         text-align: end;
         align-self: flex-end;
     }
@@ -269,6 +288,7 @@ main {
         column-count: 3;
     }
 }
+
 /* large devices (laptops and desktops, 992px and up */
 @media screen and (min-width: 992px) {
     #menu a:hover {
@@ -292,7 +312,7 @@ main {
         flex-direction: row;
     }
 
-    #benefits > div {
+    #benefits>div {
         flex: 1;
     }
 
@@ -304,10 +324,11 @@ main {
         order: 2;
     }
 
-    #benefits-mental > div {
+    #benefits-mental>div {
         align-self: flex-start;
     }
-    #benefits-physical > div {
+
+    #benefits-physical>div {
         align-self: flex-end;
     }
 
