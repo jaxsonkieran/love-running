@@ -333,7 +333,7 @@ main {
     }
     #signup {
         position: relative;
-        background-size: center;
+        background-size: cover;
     }
     #signup-form {
         position: absolute;
